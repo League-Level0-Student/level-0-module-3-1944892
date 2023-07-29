@@ -20,18 +20,23 @@ public class HighLowGame {
 			// 4. Convert the users’ answer to an int (Integer.parseInt(string))
 			int pop = Integer.parseInt(bob);
 			// 5. if the guess is correct
-		if (bob == 2) = JOptionPane.showMessageDialog(null, "Win");
+			if (pop == random) {
+				JOptionPane.showMessageDialog(null, "Win");
+				System.exit(0);
+			}
 			// 12. Use "System.exit(0);" to quit the game if the user guessed the right answer.
-
 			// 8. Tell them it's too high
-			JOptionPane.showMessageDialog(null, "To high");
+			if (pop > random) {
+				JOptionPane.showMessageDialog(null, "To high");
+			}
 			// 10. Tell them it's too low
-			JOptionPane.showMessageDialog(null, "To low");
+			if (pop < random) {
+				JOptionPane.showMessageDialog(null, "To low");
+			}
+			// 13. Tell them they lose
+
 		}
-		// 13. Tell them they lose
-
+		JOptionPane.showMessageDialog(null, "you lose");
 	}
-
 }
-
 
