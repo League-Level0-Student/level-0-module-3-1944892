@@ -11,7 +11,7 @@ public class WalkOfFame {
 		// You also need to show the robot to see the result of this line.
 
 		// 2. Make the robot draw a star shape. Hint: angle=144.
-
+rob.penDown();
 		// 3. Set the length of each line in the star to 30.
 
 		/** THE CHALLENGE: **/
