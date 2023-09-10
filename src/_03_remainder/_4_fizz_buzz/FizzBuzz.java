@@ -13,13 +13,12 @@ package _03_remainder._4_fizz_buzz;
 * For numbers divisible by both 3 and 5, say "FizzBuzz".
 * 
 * Print your results to the console.
-* 
+* .
 * If your code is correct, the output will be:
 *  
 * 1 2 fizz 4 buzz fizz 7 8 fizz buzz 11 fizz 13 14 fizzbuzz 16 17 fizz 19 buzz
 * 
 **/
-System.out.println("1 2 fizz 4 buzz fizz 7 8 fizz buzz 11 fizz 13 14 fizzbuzz 16 17 fizz 19 buzz");
 public class FizzBuzz {
 	/*
 	 * FILL OUT THE IF STATEMENTS TO GET THE PROGRAM TO WORK
