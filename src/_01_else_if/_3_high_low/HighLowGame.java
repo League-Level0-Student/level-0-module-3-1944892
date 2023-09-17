@@ -39,4 +39,3 @@ public class HighLowGame {
 		JOptionPane.showMessageDialog(null, "you lose");
 	}
 }
-
